@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.lqr.articlepatch.widget.AutoCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        app:cardElevation="5dp">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.lzy.ninegrid.NineGridView
+                android:id="@+id/ngv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                app:ngv_gridSpacing="3dp"
+                app:ngv_maxSize="9"
+                app:ngv_mode="grid"
+                app:ngv_singleImageRatio="1"
+                app:ngv_singleImageSize="250dp"/>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <View
+                    style="@style/Line"
+                    />
+
+                <TextView
+                    android:id="@+id/tvFolderName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20px"
+                    android:text="文件夹名(12)"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20px"
+                    android:layout_marginLeft="20px"
+                    android:text="2017-03-12"
+                    android:textSize="12sp"/>
+
+            </com.zhy.autolayout.AutoLinearLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.lqr.articlepatch.widget.AutoCardView>
+
+</com.zhy.autolayout.AutoFrameLayout>

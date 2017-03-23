@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_video_list"
+            android:icon="@drawable/ic_video_list"
+            android:title="@string/video_list"/>
+        <item
+            android:id="@+id/nav_pic_list"
+            android:icon="@drawable/ic_pic_list"
+            android:title="@string/pic_list"/>
+        <item
+            android:id="@+id/nav_download_manager"
+            android:icon="@drawable/ic_download_manager"
+            android:title="@string/download_manager"/>
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_setting"
+            android:title="@string/setting"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/share"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_explain"
+            android:icon="@drawable/ic_explain"
+            android:title="@string/explain"/>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about"/>
+    </group>
+
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="480px"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="@string/please_choose_definition"
+            android:textColor="@color/white"
+            android:textSize="30px"/>
+
+        <com.lqr.recyclerview.LQRRecyclerView
+            android:id="@+id/rvVideos"
+            android:layout_width="480px"
+            android:layout_height="wrap_content"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoFrameLayout>

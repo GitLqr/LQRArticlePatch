@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="lqr_article_patch_db"></dbname>
+
+    <version value="1"></version>
+
+    <list>
+        <mapping class="com.lqr.articlepatch.model.TaskModel"></mapping>
+    </list>
+</litepal>
