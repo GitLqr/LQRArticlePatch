@@ -17,7 +17,8 @@
 - 说明：本文说明
 - 关于：作者信息
 
-
+###3、Demo下载
+[DemoApp下载](app-release.apk)
 
 
 #二、使用方式 
@@ -32,42 +33,42 @@
 
 1、在文章界面，点击右下角的“分享”按钮。
 
-![image](way1/1.png)
+![image](Explain/way1/1.png)
 
 2、点击“转发链接”。
 
-![image](way1/2.png)
+![image](Explain/way1/2.png)
 
 3、点击“今日头条助手”。
 
-![image](way1/3.png)
+![image](Explain/way1/3.png)
 
 4、等待应用获取文件链接。
 
-![image](way1/4.png)
+![image](Explain/way1/4.png)
 
 5、选择视频清晰度。（图片下载没有这一步）
 
-![image](way1/5.png)
+![image](Explain/way1/5.png)
 
 6、从侧边栏进入“下载管理”界面，可以看见正在下载的文件（可暂停）。
 
-![image](way1/6.png)
+![image](Explain/way1/6.png)
 
 7、从侧边进入“视频列表”界面，可以看到刚刚下载的文件（图片则到“图片列表”界面查看）。
 
-![image](way1/7.png)
+![image](Explain/way1/7.png)
 
 ##手动输入url方式
 
 1、今日头条中的视频一栏，看到你想要下载的视频时，点击对应视频item的右下角“更多”按钮。
 
-![image](way2/1.png)
+![image](Explain/way2/1.png)
 
 2、点击“复制链接”。
 
-![image](way2/2.png)
+![image](Explain/way2/2.png)
 
 3、打开“今日头条助手”，点击右下角的“+”号按钮，粘贴进去刚才复制的url即可。
 
-![image](way2/3.png)
+![image](Explain/way2/3.png)
